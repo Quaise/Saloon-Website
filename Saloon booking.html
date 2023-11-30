@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="AURA SALOON AND SPA">
+        <title>AURA SALOON AND SPA</title>
+        <link rel="stylesheet" href="salono.css">
+    </head>
+    <body>
+        <section id="banner">
+            <div class="navbar">
+                <img src="logo8.jpg" class="logo">
+                <nav>
+                    <ul >
+                        <li><a href="#banner">HOME</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#contact1">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                </div>
+
+            <div class="content">
+                <h1>WELCOME TO THE CREATIVITY</h1>
+                <p>Experience the best service in your hairs you could ever have with the perfect combination of massage and the nourishment of your skin and body!</p>
+                <div>
+                    <button type="submit" class="button"><span></span>
+                       <a href="index.html">BOOK APPOINTMENT</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <main>
+            <section id="services">
+                <h2>OUR SERVICES</h2>
+                <div class="service">
+                    <img src="haircut.jpg">
+                    <h3>Hair Cut (RS 299)</h3>
+                    <p>Style your hair with the best hands, we create nice looks for all events</p>
+                </div>
+                <div class="service">
+                    <img src="hair color.jpg">
+                    <h3>Hair Colour (RS 999)</h3>
+                    <p>All types of hair colouring like global, highlighting for both male and female</p>
+                </div>
+                <div class="service">
+                    <img src="menicure10.jpg">
+                    <h3>Manicure (RS 299)</h3>
+                    <p>The Spa Manicure is an all herbal manicure that helps you de-stress by releasing the tension from your nerves using organic products</p>
+                </div>
+                <div class="service">
+                    <img src="pedicure10.jpg">
+                    <h3>Pedicure (RS 499)</h3>
+                    <p>A pedicure is the best stress relief for the body. It releases the tension from your feet, relieving and detoxing the entire body</p>
+                </div>
+                <div class="service">
+                    <img src="Waxing and Threading.jpg">
+                    <h3>Waxing and Threading (RS 699)</h3>
+                <p>Eyebrow threading is performed with consideration for your facial features, and body waxing leaves you with a silky smooth finish</p>
+                </div>
+                <div class="service">
+                    <img src="hair spa 3.jpg">
+                    <h3>Hair Spa (RS 499)</h3>
+                <p>A hair spa treatment is the best solution for dry, frizzy hair. It also relaxes your body and relieves stress makes your hair smooth</p>
+                </div>
+            </section>
+            <section id="contact1">
+                <h2>Contact Us</h2>
+                <p><b>If you have any questions or would like to book an appointment, feel free to get in touch with us!</b></p>
+                
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="2" required></textarea>
+                    <div class="container">
+                        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+                        <div class="popup" id="popup">
+                            <img src="ticked1.png">
+                            <h3>Thank you!</h3>
+                            <p>Your details has been successfully submitted. Thanks!</p>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+                    </div>
+                
+            </section>
+            <script>
+                let popup= document.getElementById("popup");
+
+                function openPopup(){
+                    popup.classList.add("open-popup");
+                }
+                function closePopup(){
+                    popup.classList.remove("open-popup");
+                }
+            </script>
+        </main>
+        <footer>
+            <p>&copy; 2023 Aura Saloon and Spa & All Rights Reserved.</p>
+        </footer>
+
+    </body>
+</html>
+
