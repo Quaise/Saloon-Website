@@ -1,5 +1,5 @@
 # Saloon appointment website
 <br>
-Front end part the saloon appointment website is done
+Front end part of saloon appointment website is done
 <br>
 Author-Quaise Mallick
